@@ -1,0 +1,33 @@
+h1 {color:red;
+    font-size:2em;
+    text-align:center;
+    }
+
+
+h3 {color:blue;
+    font-size:1em
+    }
+
+
+div {background-color: gray;
+    }
+
+#rose {background-color:pink;
+        }
+
+      #titre2 {color:green;
+        text-align: right;
+        text-decoration:underline;
+         }
+
+strong {color: yellowgreen;
+    font-weight:100 
+        }
+
+em     {color:orange;
+        text-decoration:underline;
+        font-style:normal;
+        font: size 1em;
+
+
+        }
