@@ -1,0 +1,94 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+        <title>Document</title>
+</head>
+<body>
+
+        <form method="post" action="" >
+            <fieldset>
+                <legend>Infos personnelles</legend>
+            <label for="Prénom">Prénom</label>
+                <input type="text" name="Prénom"  maxlength="20" minlength="2" placeholder="Prénom"><br>
+            <label for="Nom">nom</label>
+                <input type="text" name="Nom"  maxlength="20" minlength="2" placeholder="Nom"><br>
+            <label for="email">E-mail</label>
+                <input type="email" name="email"  placeholder="E-mail"><br>
+            <label for="Numero">Numero</label>
+                <input type="number" name="Numero"  placeholder="Numero"><br>
+            <label for="Password">Password</label>
+            <input type="password" name="Password"  placeholder="Password" minlength="8" maxlength="30"><br>
+            <label for="Age">Age</label>
+            <input type="number" name="age"  placeholder="Age"><br>
+            
+            <label for="Laisser un commentaire">Laisser un commentaire</label><br>
+
+            <textarea  type="text" name="Laisser un commentaire"  placeholder="Laisser un commentaire" rows="10" cols="70"></textarea><br>
+            
+            <label for="Date de mon commentaire">Date de mon commentaire</label>
+            <input type="date" id="Date de mon commentaire"  value="2023-09-07" /><br>
+            <label for="file">Ma photo :</label>
+            <input type="file" id="Ma photo" accept=".jpg,.png,.gif">
+        </fieldset>
+         </form>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Vous préférez : </legend>
+
+                <div>
+                    <label for="Checkbox1"> Le HTML</label> <br>
+                    <input type="checkbox" id="Checkbox1" checked ><br>
+                    <label for="Checkbox2">Le CSS</label><br>
+                    <input type="checkbox" id="Checkbox2" ><br>
+                    <label for="Checkbox3">Le javascript</label><br>
+                    <input type="checkbox" id="Checkbox3"><br>
+                    <label for="Checkbox4" >Ne rien faire</label><br>
+                    <input type="checkbox" id="Checkbox4"><br> 
+                </div>
+            </fieldset>
+            </form>
+            <form  method="post"action="">
+             <fieldset>
+            <legend>Vous vous levez</legend>
+            <label for="le matin">le matin</label>
+            <input type="radio" id="le matin" value="le matin" checked><br>
+            <label for="le midi">le midi</label>
+            <input type="radio" id="le midi" value="le midi" ><br>
+            <label for="le soir">le soir</label>
+            <input type="radio" id="le soir" value="le soir"><br>
+            <label for="En retard">le matin</label>
+            <input type="radio" id="En retard" value="En retard"><br>
+        
+        
+        </fieldset>
+
+
+        </form>
+
+        <form method="post" action=""></form>
+        <fieldset>
+
+        <legend>Fin du formulaire</legend>
+
+        <label>Vous en avez assez
+        <select name="J'en veux plus" id="Vous en avez assez" multiple size="2"> </select>
+        <optgroup label="team pas encore">
+        <option value="C'est super">C'est super</option>
+
+        </optgroup>
+
+        <optgroup label="team oula">
+        <option value="pitié">pitié</option>
+
+        </optgroup>
+
+        <input type="submit" value="Envoyer " />
+        <input type="reset" value="Reset" />
+        </select>
+
+        </label>
+        
+        </fieldset>
+    
+</body>
+</html>

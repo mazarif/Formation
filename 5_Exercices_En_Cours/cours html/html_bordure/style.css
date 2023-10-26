@@ -1,0 +1,40 @@
+#p1 p {
+
+    background-color: rgb(194, 186, 186);
+    border: solid 2px;
+    border-color:rgb(25, 235, 25);
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    
+       }
+
+#p2 p {
+
+    background-color: rgb(194, 186, 186);
+    border: solid 2px ;
+    border-color:rgb(25, 235, 25);
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+
+      }
+
+#p3 p {
+
+    background-color: rgb(194, 186, 186);
+    border: solid 2px;
+    border-color: rgb(25, 235, 25);
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+
+       }
+
+body {
+
+    margin: 0;
+background-color: rgba(143, 18, 143, 0.904);
+
+      }

@@ -47,18 +47,63 @@
 //     else{
 //         console.log(Cadet);
 //     }
-let age = parseInt(prompt("Saisir l'age"));
-switch(true) {
-case age >=6 && age <=7:
- console.log("poussin");
- break;
- case age >=8 && age <=9:
- console.log("pupille");
- break;
- case age >=10 && age <=11:
-    console.log("minime");
-    break;
-    case age >=12:
- console.log("cadet");
- break;
-} 
+// let age = parseInt(prompt("Saisir l'age"));
+// switch(true) {
+// case age >=6 && age <=7:
+//  console.log("poussin");
+//  break;
+//  case age >=8 && age <=9:
+//  console.log("pupille");
+//  break;
+//  case age >=10 && age <=11:
+//     console.log("minime");
+//     break;
+//     case age >=12:
+//  console.log("cadet");
+//  break;
+// } 
+// let valeur1 = (prompt("Saisir valeur1 numerique"));
+// let valeur2 = (prompt("Saisir valeur2 numerique"));
+// let valeur3 = (prompt("Saisir valeur3 numerique"));
+// let tab = [];
+// tab[0] = valeur1;
+// tab[1] = valeur2;
+// tab[2] = valeur3;
+// if(valeur1 <= valeur2 && valeur2<=valeur3){
+// console.log('valeur trié par ordre croissant');
+// }
+// else{
+//     console.log('valeur non trié par ordre croissant');
+// let tab = [] 
+// tab[0] = (prompt("Saisir nom"));
+// tab[1] = parseFloat(prompt("Saisir prix"));
+// tab[2] = (prompt("Saisir quantite"));
+// let prixTTC = tab[1]*tab[2]*1.20
+// tab.push(prixTTC)
+// console.log('Le prix TTC est :'+ tab[3]);
+
+let indice = 0;
+let users = [];
+for(let i = 0; i<5; i++){
+    let user = {
+        'nom': prompt("user num "+(i+1)+" Saisir le nom :"),
+        'prenom':prompt("user num "+(i+1)+" Saisir le prénom"),
+        'age':prompt("user num "+(i+1)+" Saisir l'age"),
+        'tel':prompt("user num "+(i+1)+" Saisir le numéro")
+    }
+    //version avec indice
+    //users[i] = user;
+    //version avec push
+    users.push(user);
+}
+let minAge = users[0].age;
+for(let i = 0; i<users.length; i++){
+    //compare si l'age de la colonne est plus petit que l'age de minAge
+    if(users[i].age < minAge){
+        //remplacer les valeur age minimum
+        minAge = users[i].age;
+        //remplacer la valeur de la colonne (indice du tableau)
+        indice = i;
+    }
+}
+console.log("L'utilisateur le plus jeune est : "+users[indice].prenom+" "+users[indice].nom);

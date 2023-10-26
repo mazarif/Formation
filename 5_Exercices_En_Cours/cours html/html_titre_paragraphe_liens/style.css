@@ -1,0 +1,10 @@
+h1 {color:blue;}
+
+h1:hover{color:green}
+
+h1+p:hover{background-color: gray;}
+
+a:visited {color:gray}
+a:link {color:orange}
+img:active {opacity:0 ;}
+

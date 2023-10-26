@@ -1,0 +1,23 @@
+table { table-layout: fixed;
+    width: 100%;
+    
+    border: double purple;
+text-align: center;
+border-collapse:collapse;
+
+
+
+}
+td {
+border: 2px solid;
+
+}
+th {
+background-color: aqua;
+    border: 2px solid;
+}
+
+caption {
+    color: blueviolet;
+}
+

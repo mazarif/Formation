@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+form {
+
+border: solid 1px;
+color: black;
+height: 250px;
+width: 400px;
+background-color: grey;
+
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+
+
+
+}
+
+#pseudo {
+
+margin-left: 30px;
+margin-right: 20px;
+padding: 5px;
+}
+
+
+#mdp {
+margin-right: 20px;
+    margin-left: 30px;
+    padding: 5px
+}
+
+#checkbox {
+margin-left:  30px;
+padding: 10px;
+padding: 5px
+}
+
+#connexion {
+margin-top: 20px;
+padding: 5px;
+text-align: center; 
+  color: aqua;  
+
+}
+
+
+#retour {
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center; 
+      color: aqua;  
+}
+    
+
+
+  
+        
+
